@@ -1,0 +1,1 @@
+echo ${string_for_child}
