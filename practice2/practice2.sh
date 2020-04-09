@@ -11,14 +11,16 @@
 #     touch google.com
 # fi
 recursive(){
-    searchdir=${HOME}
+    searchdir=$1
     for entry in $searchdir/*
         do 
             if [ -f $entry ]
                 then   
                     echo file : $entry
             else
-                echo "good"
+                echo dir : $entry
+                recursive $entry
             fi
         done
 }
+recursive ${PWD}
