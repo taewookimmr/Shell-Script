@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "key1": "value1",
+      "key2": "value2",
+      "id": 2
+    },
+    {
+      "key1": "value1",
+      "key2": "value2",
+      "id": 3
+    },
+    {
+      "key1": "value1",
+      "key2": "value2",
+      "id": 4
+    },
+    {
+      "key1": "value1",
+      "key2": "value2",
+      "id": 5
+    },
+    {
+      "key1": "value1",
+      "key2": "value2",
+      "id": 6
+    },
+    {
+      "key1": "value1",
+      "key2": "value2",
+      "id": 7
+    },
+    {
+      "apple": "red",
+      "grape": "purple",
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

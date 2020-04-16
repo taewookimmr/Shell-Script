@@ -3,4 +3,7 @@
 ## 지원하는 프로토콜은 http/https/ftp/ldap/scp/telnet/smtp/pop3
 ## 다운로드 업로드 모두 가능하다
 
-curl https://compresspng.com
+
+curl -d "key1=value1&key2=value2" \      
+-H "Content-Type: application/x-www-form-urlencoded" \
+-X POST http://localhost:80/posts
